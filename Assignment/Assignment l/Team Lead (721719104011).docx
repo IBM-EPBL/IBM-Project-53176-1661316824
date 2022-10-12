@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="resume.css">
+</head>
+
+<body>
+	<div class="full">
+		<div class="left">
+			<div class="image">
+				<img src=
+"https://media.Balakumar.org/wp-content/uploads/20220202083519/gfglogo.png"
+					alt="gfg-logo"
+					style="width:100px;height:100px;">
+			</div>
+			<div class="Contact">
+				<h2>Contact</h2>
+				
+
+<p><b>Email id:</b>balakumarn2002</p>
+<p><b>Mobile no :</b>6380969904</p>
+
+
+			</div>
+			<div class="Skills">
+              <h2><b>Skills</b></h2>
+				<ul>
+					<li><b>Programming Languages :
+					Python, Java, C</b></li>
+					<li><b>Scripting Languages :   HTML</b></li>
+                  <li><b>Database  : SQL</b></li>
+				</ul>
+			</div>
+              <div class="Interest">
+				<h2>Area of Interest:</h2>
+				<ul>
+					<li>Problem Solving</li>
+					<li>OOPS Concepts</li>
+                  <li> programming</li>
+				</ul>
+			</div>
+			<div class="Language">
+				<h2>Language</h2>
+				<ul>
+					<li>English</li>
+					<li>Tamil</li>
+				</ul>
+			</div>
+			<div class="Hobbies">
+				<h2>Hobbies</h2>
+				<ul>
+					<li>Playing cricket</li>
+					<li>Listening to music</li>
+				</ul>
+			</div>
+		</div>
+		<div class="right">
+			<div class="name">
+			</div>
+			<div class="Summary">
+				<h2>
+
+			</div>
+			<div class="Extra">
+				<h2>Extra Curricular Activities:</h2>
+				<p><li>I have Recieved First Prize in “HAPYTHON” Coding Contest Conducted by R2C
+                  Technologies,Udumalpet(2020-2021).</li>
+					<li>I have Completed “Core Python” Course in R2C Technologies through offline
+                      mode,Udumalpet (2020-2021).</li>
+					<li>I have Completed “Core Java” Course in R2C Technologies through offline
+mode(2021-2022) .During this Course I have done many tasks that makes me
+creative.</li>
+              <li>I have Completed Internship in “Java Programming” from R2C Technologies
+                Udumalpet.</li>
+              <li>I have Presented a Paper on “MobileCloud Computing” in KPR Institute of
+                Engineering and Technology(28-02-2022),Coimbatore.</li><
+			</div>
+			<div class="Education">
+				<h2>Education</h2>
+			</div>
+                  <h2>Bachelor of Engineering - (2019 - 2023*)</h2><li><b>Institution : P.A. College of Engineering and Technology, Pollachi.</b></li>
+                  <li><b>Discipline : Computer Science and Engineering</b></li>
+                  <li><b>Aggregate : 9.53 (CGPA up to 5th sem.)</b></li>
+                  <h2>Higher Secondary Education - (2018 - 2019)</h2><li><b>School : Rkr Grks Matric Hr Sec School , Udumalpet.</b></li><li><b>Aggregate : 86.33%</b></li>
+     </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
