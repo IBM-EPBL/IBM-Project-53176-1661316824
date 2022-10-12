@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <!--font awesome-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <!--aos libriary css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+     <!--NAV BAR-->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PORTFILO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-align-left"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skill">SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+            <div>
+            <a class="btn btn-outline-white " style="background-color: grey; color: #fff;">Hire Me
+            </a>
+          </div>
+      </nav>
+     <!--home section-->
+      <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5 " id="home">
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-6 hero-text  text-lg-left ">
+             <h1 class="text-white font-weight-normal " >HELLO I'AM</h1>
+             <h3 class="display-5 text-uppercase  mb-  align-items-center justify-content-center d-flex" data-aos="fade-right"  data-aos-delay="800" style="-webkit-text-stroke:2px #ffffffff;">GURUPRASATH K M</h3>
+             <!--BUTTON-->
+             <div class="d-flex align-items-center  pt-1">
+               <a href="#" class="btn btn-white  align-items-center">DOWNLOAD CV</a>
+             </div>
+            </div>
+            <!--IMAG-->
+            <div class="about-img col-lg-6  col-md-6   d-flex justify-content-center align-items-center">
+            <img src="images/photo.jpg" alt="" class="img-fluid w-100 rounded-circle shadow-sm justify-content-center d-flex align-items-center my-5" data-aos="flip-right"
+            data-aos-easing="zoom-in-cubic"
+            data-aos-duration="7">
+            </div>
+          </div>
+        </div>
+      </div>
+     <!--end-->
+       <!--section about-->
+       <div class="container-fluid py-4" id="about">
+         <div class="container">
+           <div class="position-relative d-flex justify-content-center align-items-center">
+             <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">ABOUT</h1>
+             <h3 class="position-absolute text-uppercase text-primary">About Me</h3>
+           </div>
+           <div class="row align-items-center my-4">
+             <div class="col-lg-6">
+              <img src="images/photo.jpg" alt="" class="img-fluid rounded w-100 img-thumbnail" style="max-height:90vh" data-aos="zoom-in-up">
+             </div>
+             <div class="col-lg-4 ms-5"  data-aos="fade-up-right" data-aos-delay="1000">
+           <h3 class="mb-4 my-5">UI DESIGNER/WEB DESIGNER</h3>
+
+           <div class="col-sm-8 py-2">
+             <h6>Name: <span class="text-secondary ">GURUPRASATH K M</span></h6>
+          </div>
+          <div class="col-sm-6 py-2">
+            <h6>Birth day: <span class="text-secondary ">02 December 2000</span></h6>
+         </div>
+         <div class="col-sm-6 py-2">
+          <h6>Degree: <span class="text-secondary ">Bachelor</span></h6>
+       </div>
+       <div class="col-sm-6 py-2">
+        <h6>Phone no: <span class="text-secondary ">+91 7339**</span></h6>
+     </div>
+     <div class="col-sm-6 py-2">
+      <h6>Email: <span class="text-secondary ">kmguruprasath2000@gmail.com</span></h6>
+     </div>
+     <div class="col-sm-6 py-2">
+      <h6>Experience: <span class="text-secondary ">Fresher</span></h6>
+   </div>
+   <div class="col-sm-6 py-2">
+    <h6>ADDRESS: <span class="text-secondary ">3/16, Emma gounden palayam,Kinthukadavu,coimbatore</span></h6>
+ </div>
+            <!--button-->
+            <a href="#" class="btn btn-outline-primary blue mr-4  my-5">Hire Me</a>
+            <a href="#" class="btn btn-outline-primary blue-1">Learn more</a>
+             </div>
+         </div>
+       </div>
+       <!--end-->
+  <!--skill section-->
+   <div class="container-fluid py-5" id="skill">
+     <div class="container">
+       <div class="position-relative d-flex align-items-center justify-content-center">
+      <h1 class="text-uppercase display-1 text-white" style="-webkit-text-stroke: 1px #dee2e6;">SKILLS</h1>
+      <h2 class="position-absolute text-uppercase text-primary"> MY SKILLS</h2>
+       </div>
+       <!--SKILLS-->
+       <div class="row align-items-center bg-dark rounded rounded mt-5 pt-4"  data-aos="fade-down-right">
+         <div class="col-md-4">
+           <div class="col-skill mb-4" mt-5>
+           <div class="d-flex justify-content-space between">
+            <h6 class="font-width-bold text-danger">HTML</h6>
+            <h6 class="font-width-bold text-danger ms-2">60%</h6>
+           </div>
+           <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+          </div>
+            <!--css-->
+          <div class="d-flex justify-content-space between mt-3">
+            <h6 class="font-width-bold text-danger">C</h6>
+
+            <h6 class="font-width-bold text-danger ms-2">95%</h6>
+           </div>
+           <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
+           </div>
+        <!--javascript-->
+        <div class="d-flex justify-content-space between mt-3">
+          <h6 class="font-width-bold text-danger">JAVASCRIPT</h6>
+
+          <h6 class="font-width-bold text-danger ms-2">30%</h6>
+         </div>
+         <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
+         </div>
+        <!--BOOTSRTAP-->
+        <div class="d-flex justify-content-space between mt-3">
+          <h6 class="font-width-bold text-danger">PYTHON</h6>
+
+          <h6 class="font-width-bold text-danger ms-2">90%</h6>
+         </div>
+         <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+         </div>
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+  <!--end-->
+  <!--CONTACT SECTION-->
+  <div class="container-fluid py-5" id="contact">
+    <div class="container">
+      <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="text-uppercase display-1 text-white" style="-webkit-text-stroke: 1px #dee2e6;">CONTACT</h1>
+        <h2 class="position-absolute text-uppercase text-primary">CONTACT ME</h2>
+         </div>
+         <div class="row" data-aos="fade-down-left">
+           <div class="col-lg-8">
+             <div class="contact-form text-center">
+                <div id="success">
+                 <form action="mailto:hariprakashhari8437@gmail.com" name="sentMessage" novalidate="novalidate" method="POST"  >
+
+                   <div class="form-row my-5">
+
+                     <div class=" col-sm-6">
+                           <input type="text" class="form-control py-2" id="name" placeholder=" Enter your name" data-validation-requried-message="please enter your name">
+                           <p class="help-block text-danger"></p>
+                     </div>
+                     <div class="form-row">
+                      <div class="control-group col-sm-6">
+
+                            <input type="email" class="form-control py-2" id="email" placeholder="Enter your e-mail" data-validation-requried-message="please enter your eamils">
+                            <p class="help-block text-danger"></p>
+                      </div>
+                   </div>
+                   <div class="control-group">
+                    <input type="Subject" class="form-control py-2" id="email" placeholder="subject" data-validation-requried-message="please enter your eamils">
+                    <p class="help-block text-danger"></p>
+                   </div>
+                   <div class="control-group">
+                    <textarea class="form-control py-3 " id="measage" rows="5" placeholder="Eenter your message"></textarea>
+                     <p class="help-block text-danger"></p>
+                   </div>
+                   <div>
+                     <button class="btn btn-outline-primary"   type="submit" value="sumbit" id="send">Send Message</button>
+                   </div>
+                 </form>
+                </div>
+             </div>
+           </div>
+         </div>
+    </div>
+  </div>
+  <!--END-->
+  <div class="container-fluid bg-info text-white mt-5 py-1 py-sm-1 px-md-5 rounded-circle">
+    <div class="container text-center py-5">
+      <div class="d-flex  justify-content-center mr-4  mb-4">
+     <a href="#" class="btn btn-warning btn-social "><i class="fab fa-twitter"></i></a>
+     <a href="#" class="btn btn-warning btn-social "><i class="fab fa-facebook-f"></i></a>
+     <a href="#" class="btn btn-warning btn-social "><i class="fab fa-linkedin-in"></i></a>
+     <a href="#" class="btn btn-warning btn-social "><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="d-flex justify-content-center align-items-center mb-4">
+         <a href="#" class="text-white">Privacy</a>
+         <span class="px-4">|</span>
+         <a href="#" class="text-white">Faqs</a>
+         <span class="px-4">|</span>
+         <a href="#" class="text-white">Help</a>
+         <span class="px-4">|</span>
+      </div>
+       <p class="m-1">&copy;</p>
+       <a href="#" class="text-white font-width-bold">@guruprasath</a>.All rights Reserved. Designed BY <br> 
+       <h1 class="display-6 fw-bold text-secondary mt-2">GURUPRASATH</h1>
+    </div>
+  </div>
+  <!--fotter section-->
+  <!--end-->
+       <!--jquery external lib-->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+       <script src="web.js"></script>
+    <!--jqurey lib-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+    <!--aos javascript lib-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--intialize aos-->
+    <script>
+      AOS.init();
+    </script>
+    <!--Nav bar script code-->
+
+</body>
+</html>
