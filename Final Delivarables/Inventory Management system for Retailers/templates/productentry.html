@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="bg"></div>
+
+<form>
+ <hr><b>Add New Items</b></hr>
+
+
+  <div class="form-field">
+    <input type="retailername" placeholder="Retailer Name" required/>
+  </div>
+
+  <div class="form-field">
+    <input type="productname" placeholder="Product Name" required/>
+  </div>
+  
+  <div class="form-field">
+     <input type="productbrand" placeholder="Product Brand" required/>
+                            
+  </div>
+  <div class="form-field">
+    <input type="RFIDtag" placeholder="RFID Tag" required/>
+  </div>
+
+  <div class="form-field">
+    <input type="cost" placeholder="Cost" required/>
+  </div>
+
+  <div class="form-field">
+    <input type="quantity" placeholder="Quantity" required/>
+  </div>
+  
+  <div class="form-field">
+    <button class="btn" type="add">Add</button>
+  
+  
+    <button class="btn" type="reset">Clear</button>
+  </div>
+</form>
+<!-- partial -->
+  
+</body>
+</html>
